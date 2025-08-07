@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\OneDrive\\Documentos\\8vo Semestre\\Analisis de Sistemas 2\\CRMVentasAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0B6BB9-5F27-40F6-82AE-9B4528260AA8}|CRMVentasAPI.csproj|c:\\users\\hp\\onedrive\\documentos\\8vo semestre\\analisis de sistemas 2\\crmventasapi\\controllers\\analyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC0B6BB9-5F27-40F6-82AE-9B4528260AA8}|CRMVentasAPI.csproj|solutionrelative:controllers\\analyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0B6BB9-5F27-40F6-82AE-9B4528260AA8}|CRMVentasAPI.csproj|c:\\users\\hp\\onedrive\\documentos\\8vo semestre\\analisis de sistemas 2\\crmventasapi\\controllers\\embudoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC0B6BB9-5F27-40F6-82AE-9B4528260AA8}|CRMVentasAPI.csproj|solutionrelative:controllers\\embudoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0B6BB9-5F27-40F6-82AE-9B4528260AA8}|CRMVentasAPI.csproj|c:\\users\\hp\\onedrive\\documentos\\8vo semestre\\analisis de sistemas 2\\crmventasapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC0B6BB9-5F27-40F6-82AE-9B4528260AA8}|CRMVentasAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0B6BB9-5F27-40F6-82AE-9B4528260AA8}|CRMVentasAPI.csproj|c:\\users\\hp\\onedrive\\documentos\\8vo semestre\\analisis de sistemas 2\\crmventasapi\\embudo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC0B6BB9-5F27-40F6-82AE-9B4528260AA8}|CRMVentasAPI.csproj|solutionrelative:embudo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0B6BB9-5F27-40F6-82AE-9B4528260AA8}|CRMVentasAPI.csproj|c:\\users\\hp\\onedrive\\documentos\\8vo semestre\\analisis de sistemas 2\\crmventasapi\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC0B6BB9-5F27-40F6-82AE-9B4528260AA8}|CRMVentasAPI.csproj|solutionrelative:appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0B6BB9-5F27-40F6-82AE-9B4528260AA8}|CRMVentasAPI.csproj|c:\\users\\hp\\onedrive\\documentos\\8vo semestre\\analisis de sistemas 2\\crmventasapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BC0B6BB9-5F27-40F6-82AE-9B4528260AA8}|CRMVentasAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0B6BB9-5F27-40F6-82AE-9B4528260AA8}|CRMVentasAPI.csproj|c:\\users\\hp\\onedrive\\documentos\\8vo semestre\\analisis de sistemas 2\\crmventasapi\\controllers\\oportunidadescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC0B6BB9-5F27-40F6-82AE-9B4528260AA8}|CRMVentasAPI.csproj|solutionrelative:controllers\\oportunidadescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC0B6BB9-5F27-40F6-82AE-9B4528260AA8}|CRMVentasAPI.csproj|c:\\users\\hp\\onedrive\\documentos\\8vo semestre\\analisis de sistemas 2\\crmventasapi\\oportunidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC0B6BB9-5F27-40F6-82AE-9B4528260AA8}|CRMVentasAPI.csproj|solutionrelative:oportunidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OportunidadesController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documentos\\8vo Semestre\\Analisis de Sistemas 2\\CRMVentasAPI\\Controllers\\OportunidadesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OportunidadesController.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Documentos\\8vo Semestre\\Analisis de Sistemas 2\\CRMVentasAPI\\Controllers\\OportunidadesController.cs",
+              "RelativeToolTip": "Controllers\\OportunidadesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T04:11:49.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmbudosController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documentos\\8vo Semestre\\Analisis de Sistemas 2\\CRMVentasAPI\\Controllers\\EmbudosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmbudosController.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Documentos\\8vo Semestre\\Analisis de Sistemas 2\\CRMVentasAPI\\Controllers\\EmbudosController.cs",
+              "RelativeToolTip": "Controllers\\EmbudosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T05:03:56.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Oportunidad.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documentos\\8vo Semestre\\Analisis de Sistemas 2\\CRMVentasAPI\\Oportunidad.cs",
+              "RelativeDocumentMoniker": "Oportunidad.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Documentos\\8vo Semestre\\Analisis de Sistemas 2\\CRMVentasAPI\\Oportunidad.cs",
+              "RelativeToolTip": "Oportunidad.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T04:10:17.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AnalyticsController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documentos\\8vo Semestre\\Analisis de Sistemas 2\\CRMVentasAPI\\Controllers\\AnalyticsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AnalyticsController.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Documentos\\8vo Semestre\\Analisis de Sistemas 2\\CRMVentasAPI\\Controllers\\AnalyticsController.cs",
+              "RelativeToolTip": "Controllers\\AnalyticsController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T05:04:51.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Embudo.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documentos\\8vo Semestre\\Analisis de Sistemas 2\\CRMVentasAPI\\Embudo.cs",
+              "RelativeDocumentMoniker": "Embudo.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Documentos\\8vo Semestre\\Analisis de Sistemas 2\\CRMVentasAPI\\Embudo.cs",
+              "RelativeToolTip": "Embudo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T05:02:51.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documentos\\8vo Semestre\\Analisis de Sistemas 2\\CRMVentasAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Documentos\\8vo Semestre\\Analisis de Sistemas 2\\CRMVentasAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T18:43:15.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documentos\\8vo Semestre\\Analisis de Sistemas 2\\CRMVentasAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Documentos\\8vo Semestre\\Analisis de Sistemas 2\\CRMVentasAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-03T18:41:35.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documentos\\8vo Semestre\\Analisis de Sistemas 2\\CRMVentasAPI\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "AppDbContext.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Documentos\\8vo Semestre\\Analisis de Sistemas 2\\CRMVentasAPI\\AppDbContext.cs",
+              "RelativeToolTip": "AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T18:39:53.899Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

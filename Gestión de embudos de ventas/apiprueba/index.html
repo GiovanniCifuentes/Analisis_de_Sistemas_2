@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dashboard Embudo de Oportunidades</title>
+  <link rel="stylesheet" href="C:\Users\HP\OneDrive\Documentos\8vo Semestre\apiprueba\style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+</head>
+<body>
+
+  <h1>Dashboard Embudo de Oportunidades</h1>
+
+  <div class="filters">
+    <div>
+      <label for="filterVendedor">Vendedor:</label>
+      <select id="filterVendedor">
+        <option value="">Todos</option>
+        <!-- Se llenará dinámicamente -->
+      </select>
+    </div>
+    <div>
+      <label for="filterDesde">Desde:</label>
+      <input type="date" id="filterDesde" />
+    </div>
+    <div>
+      <label for="filterHasta">Hasta:</label>
+      <input type="date" id="filterHasta" />
+    </div>
+    <div>
+      <button id="btnFiltrar">Filtrar</button>
+    </div>
+  </div>
+
+  <div class="dashboard">
+    <div class="kanban" id="kanban"></div>
+
+    <div class="chart-container">
+      <canvas id="barChartCanvas"></canvas>
+      <div class="info-boxes" id="infoBoxes"></div>
+      <button id="btnExportCsv">Exportar CSV</button>
+    </div>
+  </div>
+
+  <div id="error"></div>
+
+  <script src="C:\Users\HP\OneDrive\Documentos\8vo Semestre\apiprueba\script.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "RXouhVB9AKzodRwCdCq3M2AOJ7caqsnvhDWQK2xPFpI=",
+  "Source": "CRMVentasAPI",
+  "BasePath": "_content/CRMVentasAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,6 @@
+@CRMVentasAPI_HostAddress = http://localhost:5187
+
+GET {{CRMVentasAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
