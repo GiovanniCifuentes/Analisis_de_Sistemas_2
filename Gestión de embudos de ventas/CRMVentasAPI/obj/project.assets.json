@@ -5146,11 +5146,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\OneDrive\\Documentos\\8vo Semestre\\Analisis de Sistemas 2\\CRMVentasAPI\\CRMVentasAPI.csproj",
+      "projectUniqueName": "C:\\Users\\HP\\OneDrive\\Documentos\\8vo Semestre\\Analisis de Sistemas 2\\Analisis_de_Sistemas_2\\Gestión de embudos de ventas\\CRMVentasAPI\\CRMVentasAPI.csproj",
       "projectName": "CRMVentasAPI",
-      "projectPath": "C:\\Users\\HP\\OneDrive\\Documentos\\8vo Semestre\\Analisis de Sistemas 2\\CRMVentasAPI\\CRMVentasAPI.csproj",
+      "projectPath": "C:\\Users\\HP\\OneDrive\\Documentos\\8vo Semestre\\Analisis de Sistemas 2\\Analisis_de_Sistemas_2\\Gestión de embudos de ventas\\CRMVentasAPI\\CRMVentasAPI.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\OneDrive\\Documentos\\8vo Semestre\\Analisis de Sistemas 2\\CRMVentasAPI\\obj\\",
+      "outputPath": "C:\\Users\\HP\\OneDrive\\Documentos\\8vo Semestre\\Analisis de Sistemas 2\\Analisis_de_Sistemas_2\\Gestión de embudos de ventas\\CRMVentasAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

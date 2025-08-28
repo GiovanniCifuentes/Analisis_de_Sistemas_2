@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRM Ventas - Asignación de Tareas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <h1>Asignación de Tareas</h1>
+
+    <!-- Formulario de nueva tarea -->
+    <div class="card">
+        <h2>Crear nueva tarea</h2>
+        <div class="form-grid">
+            <input id="titulo" type="text" placeholder="Título">
+            <input id="descripcion" type="text" placeholder="Descripción">
+            <select id="oportunidadId"><option value="">Selecciona Oportunidad</option></select>
+            <input id="estadoOportunidad" type="text" placeholder="Estado Oportunidad" readonly>
+            <input id="vendedorAsignado" type="text" placeholder="Vendedor asignado" readonly>
+        </div>
+        <button id="crear">Crear Tarea</button>
+    </div>
+
+    <!-- Filtros avanzados -->
+    <div class="filtro">
+        <select id="filtroVendedor"><option value="">Filtrar por vendedor</option></select>
+        <select id="filtroEstado"><option value="">Filtrar por estado tarea</option></select>
+        <select id="filtroOportunidad"><option value="">Filtrar por estado oportunidad</option></select>
+        <button id="aplicarFiltro">Aplicar filtro</button>
+        <button id="limpiarFiltro">Limpiar filtro</button>
+    </div>
+
+    <!-- Contenedor de tareas -->
+    <div id="tareasContainer" class="grid"></div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
+
+

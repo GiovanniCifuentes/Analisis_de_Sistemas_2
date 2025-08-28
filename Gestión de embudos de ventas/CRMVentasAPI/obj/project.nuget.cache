@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OV38Py4VpvU=",
+  "dgSpecHash": "npqJy5Zpem8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\HP\\OneDrive\\Documentos\\8vo Semestre\\Analisis de Sistemas 2\\CRMVentasAPI\\CRMVentasAPI.csproj",
+  "projectFilePath": "C:\\Users\\HP\\OneDrive\\Documentos\\8vo Semestre\\Analisis de Sistemas 2\\Analisis_de_Sistemas_2\\Gestión de embudos de ventas\\CRMVentasAPI\\CRMVentasAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
