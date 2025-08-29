@@ -15,42 +15,61 @@ Incluye:
 ## 2. Modelo de datos: `Propuesta`
 
 ```csharp
-public class Propuesta
+namespace CRMVentasAPI.Models
 {
-    public int Id { get; set; }
+    public class Propuesta
+    {
+        public int Id { get; set; }
 
-    // Información principal
-    public string Titulo { get; set; } = string.Empty;
-    public string Descripcion { get; set; } = string.Empty;
-    [Column(TypeName = "decimal(18,2)")]
-    public decimal Monto { get; set; }
-    [NotMapped]
-    public string MontoEnQuetzales => string.Format(new CultureInfo("es-GT"), "{0:C}", Monto);
+        // Información principal
+        public string Titulo { get; set; } = string.Empty;
+        public string Descripcion { get; set; } = string.Empty;
 
-    // Estado del ciclo de vida
-    public string Estado { get; set; } = "Borrador"; // Borrador, Enviada, En Revisión, Aceptada, Rechazada, Cerrada
+        [Column(TypeName = "decimal(18,2)")]
+        public decimal Monto { get; set; }
 
-    // Fechas importantes
-    public DateTime FechaCreacion { get; set; } = DateTime.Now;
-    public DateTime? FechaEnvio { get; set; }
-    public DateTime? FechaRespuesta { get; set; }
-    public DateTime? FechaCierre { get; set; }
+        // Propiedad calculada para mostrar en Quetzales
+        [NotMapped]
+        public string MontoEnQuetzales
+        {
+            get
+            {
+                return string.Format(new CultureInfo("es-GT"), "{0:C}", Monto);
+            }
+        }
 
-    // Relación con cliente/prospecto
-    public int ClienteId { get; set; }
-    public string ContactoPrincipal { get; set; } = string.Empty;
-    public string EmailContacto { get; set; } = string.Empty;
-    public string TelefonoContacto { get; set; } = string.Empty;
+        // Tipo de negocio
+        public string TipoNegocio { get; set; } = "General";
+        // Valores posibles sugeridos: "Producto", "Servicio", "Proyecto", "Suscripción", etc.
 
-    // Seguimiento y condiciones
-    public string Responsable { get; set; } = string.Empty;
-    public string Observaciones { get; set; } = string.Empty;
-    public string Condiciones { get; set; } = string.Empty;
-    public int ValidezDias { get; set; } = 30;
+        // Estado del ciclo de vida
+        public string Estado { get; set; } = "Borrador";
+        // Borrador, Enviada, En Revisión, Aceptada, Rechazada, Cerrada
 
-    // Auditoría
-    public DateTime UltimaActualizacion { get; set; } = DateTime.Now;
-    public string UsuarioUltimaActualizacion { get; set; } = string.Empty;
+        // Fechas importantes
+        public DateTime FechaCreacion { get; set; } = DateTime.Now;
+        public DateTime? FechaEnvio { get; set; }
+        public DateTime? FechaRespuesta { get; set; }
+        public DateTime? FechaCierre { get; set; }
+
+        // Relación con cliente/prospecto
+        public int ClienteId { get; set; }
+        public string ContactoPrincipal { get; set; } = string.Empty;
+        public string EmailContacto { get; set; } = string.Empty;
+        public string TelefonoContacto { get; set; } = string.Empty;
+
+        // Seguimiento
+        public string Responsable { get; set; } = string.Empty;
+        public string Observaciones { get; set; } = string.Empty;
+
+        // Condiciones de negocio
+        public string Condiciones { get; set; } = string.Empty;
+        public int ValidezDias { get; set; } = 30;
+
+        // Auditoría
+        public DateTime UltimaActualizacion { get; set; } = DateTime.Now;
+        public string UsuarioUltimaActualizacion { get; set; } = string.Empty;
+    }
 }
 ```
 
