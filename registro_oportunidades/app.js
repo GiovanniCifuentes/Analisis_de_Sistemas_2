@@ -9,6 +9,7 @@ const contactoInput = document.getElementById("contacto");
 const emailInput = document.getElementById("email");
 const telefonoInput = document.getElementById("telefono");
 const responsableInput = document.getElementById("responsable");
+const tipoNegocioInput = document.getElementById("tipoNegocio");
 const crearBtn = document.getElementById("crear");
 
 let allPropuestas = [];
@@ -46,6 +47,7 @@ function renderPropuestas(propuestas) {
           <h3 class="text-xl font-bold mb-2">${p.titulo}</h3>
           <p class="text-gray-700 mb-2">${p.descripcion}</p>
           <p class="text-gray-500 mb-1">💰 Monto: <span class="font-semibold">${montoQuetzales}</span></p>
+          <p class="text-gray-500 mb-1">🏷️ Tipo de negocio: <span class="font-semibold">${p.tipoNegocio}</span></p>
           <p class="text-gray-500 mb-1">👤 Contacto: ${p.contactoPrincipal} (${p.emailContacto})</p>
           <p class="text-gray-500 mb-1">📞 Tel: ${p.telefonoContacto}</p>
           <p class="text-gray-500 mb-1">🧑 Responsable: ${p.responsable}</p>
@@ -73,7 +75,8 @@ crearBtn.addEventListener("click", async () => {
     contactoPrincipal: contactoInput.value.trim(),
     emailContacto: emailInput.value.trim(),
     telefonoContacto: telefonoInput.value.trim(),
-    responsable: responsableInput.value.trim()
+    responsable: responsableInput.value.trim(),
+    tipoNegocio: tipoNegocioInput.value   // Nuevo campo
   };
 
   if (!nueva.titulo || !nueva.descripcion || isNaN(nueva.monto) || isNaN(nueva.clienteId)) {
@@ -83,6 +86,7 @@ crearBtn.addEventListener("click", async () => {
   try {
     await axios.post(API_URL, nueva);
     [tituloInput, descripcionInput, montoInput, clienteIdInput, contactoInput, emailInput, telefonoInput, responsableInput].forEach(input => input.value = "");
+    tipoNegocioInput.value = "General"; // Reset select
     fetchPropuestas();
   } catch (err) {
     console.error(err);
